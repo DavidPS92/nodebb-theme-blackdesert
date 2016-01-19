@@ -1,4 +1,6 @@
 <div class="card" style="border-color: {../bgColor}">
+		</div>
+	<!-- BEGIN posts -->
 	<div style="display:table;height:100%"><div style="display:table-cell;vertical-align: middle;">
 	<p>
 		<a href="{config.relative_path}/user/{../user.userslug}">
@@ -11,8 +13,6 @@
 	</p>
 	</div>
 	<div style="display:table-cell;vertical-align: middle;">
-	</div>
-	<!-- BEGIN posts -->
 	<!-- IF @first -->
 	<div component="category/posts">
 		<p>
