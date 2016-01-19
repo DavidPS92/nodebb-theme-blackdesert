@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-bdo",
+    "id": "nodebb-theme-blackdesert",
     "name": "Black Desert Online",
     "description": "Persona theme edited for Black Desert Online.",
-    "url": "https://github.com/DavidPS/nodebb-theme-bdo",
+    "url": "https://github.com/DavidPS/nodebb-theme-blackdesert",
     "screenshot": "screenshot.png"
 }
