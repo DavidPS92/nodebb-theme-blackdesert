@@ -1,5 +1,5 @@
 <div class="card" style="border-color: {../bgColor}">
-	<div style="display:table;"><div style="display:table-cell;vertical-align: middle;">
+	<div style="display:table;height:100%"><div style="display:table-cell;vertical-align: middle;">
 	<!-- BEGIN posts -->
 	<!-- IF @first -->
 	<div component="category/posts">
