@@ -1,6 +1,7 @@
 <div class="card" style="border-color: {../bgColor}">
-	<!-- BEGIN posts -->
-	<div style="display:table;height:100%"><div style="display:table-cell;vertical-align: middle;">
+	<div style="display:table;height:100%">
+		<!-- BEGIN posts -->
+		<div style="display:table-cell;vertical-align: middle;">
 	<p>
 		<a href="{config.relative_path}/user/{../user.userslug}">
 			<!-- IF ../user.picture -->
