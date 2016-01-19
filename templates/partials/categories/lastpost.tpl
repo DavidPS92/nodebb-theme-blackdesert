@@ -11,8 +11,9 @@
 				<!-- ENDIF ../user.picture -->
 			</a>
 			<a class="permalink" href="{config.relative_path}/topic/{../topic.slug}<!-- IF ../index -->/{../index}<!-- ENDIF ../index -->">
-				<small class="timeago" title="{../timestamp}"></small>
+				<span>{../topic.title}</span>
 			</a>
+			<small class="timeago" title="{../timestamp}"></small>
 		</p>
 		<div class="post-content">
 			{../content}
