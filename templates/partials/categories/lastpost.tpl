@@ -2,7 +2,7 @@
 	<!-- BEGIN posts -->
 	<!-- IF @first -->
 	<div component="category/posts">
-		<p>
+		<p style="float:left; width:50px">
 			<a href="{config.relative_path}/user/{../user.userslug}">
 				<!-- IF ../user.picture -->
 				<img class="user-img" alt="{../user.username}" src="{../user.picture}" title="{../user.username}"/>
@@ -17,9 +17,6 @@
 			</a><br/>
 			<small class="timeago" title="{../timestamp}"></small>
 		</p>
-		<div class="post-content">
-			{../content}
-		</div>
 	</div>
 	<!-- ENDIF @first -->
 	<!-- END posts -->
