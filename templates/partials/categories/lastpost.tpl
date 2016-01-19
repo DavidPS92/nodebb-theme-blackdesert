@@ -12,7 +12,7 @@
 			</a>
 			<a class="permalink" href="{config.relative_path}/topic/{../topic.slug}<!-- IF ../index -->/{../index}<!-- ENDIF ../index -->">
 				<span>{../topic.title}</span>
-			</a>
+			</a><br/>
 			<small class="timeago" title="{../timestamp}"></small>
 		</p>
 		<div class="post-content">
