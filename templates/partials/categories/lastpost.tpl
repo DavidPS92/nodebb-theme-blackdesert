@@ -10,6 +10,8 @@
 				<span class="user-icon user-img" title="{../user.username}" style="background-color: {../user.icon:bgColor};">{../user.icon:text}</span>
 				<!-- ENDIF ../user.picture -->
 			</a>
+		</p>
+		<p>
 			<a class="permalink" href="{config.relative_path}/topic/{../topic.slug}<!-- IF ../index -->/{../index}<!-- ENDIF ../index -->">
 				<span>{../topic.title}</span>
 			</a><br/>
