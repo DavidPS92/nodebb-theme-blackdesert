@@ -1,5 +1,4 @@
 <div class="card" style="border-color: {../bgColor}">
-		</div>
 	<!-- BEGIN posts -->
 	<div style="display:table;height:100%"><div style="display:table-cell;vertical-align: middle;">
 	<p>
