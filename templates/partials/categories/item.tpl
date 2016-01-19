@@ -1,7 +1,7 @@
 <li component="categories/category" data-cid="{../cid}" data-numRecentReplies="1" class="row clearfix">
 	<meta itemprop="name" content="{../name}">
 
-	<div class="col-md-6 col-sm-9 col-xs-12 content">
+	<div class="col-md-7 col-sm-9 col-xs-12 content">
 		<div class="icon pull-left" style="{function.generateCategoryBackground}">
 			<i class="fa fa-fw {../icon}"></i>
 		</div>
@@ -28,7 +28,7 @@
 		<span class="{../unread-class} human-readable-number" title="{../totalPostCount}">{../totalPostCount}</span><br />
 		<small>[[global:posts]]</small>
 	</div>
-	<div class="col-md-4 col-sm-3 teaser hidden-xs">
+	<div class="col-md-3 col-sm-3 teaser hidden-xs">
 		<!-- IMPORT partials/categories/lastpost.tpl -->
 	</div>
 	<!-- ENDIF !../link -->
