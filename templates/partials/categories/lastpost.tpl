@@ -1,4 +1,5 @@
 <div class="card" style="border-color: {../bgColor}">
+	<div style="display:table;"><div style="display:table-cell;vertical-align: middle;">
 	<!-- BEGIN posts -->
 	<!-- IF @first -->
 	<div component="category/posts">
@@ -14,9 +15,6 @@
 				<small class="timeago" title="{../timestamp}"></small>
 			</a>
 		</p>
-		<div class="post-content">
-			{../content}
-		</div>
 	</div>
 	<!-- ENDIF @first -->
 	<!-- END posts -->
@@ -28,4 +26,5 @@
 		</div>
 	</div>
 	<!-- ENDIF !../posts.length -->
+	</div></div>
 </div>
